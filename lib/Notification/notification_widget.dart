@@ -31,6 +31,17 @@ class NotificationWidget {
         id, title, body, notificationTime, notificationDetails());
   }
 
+  static Future<void> schedulleshowNotification({
+    var id = 0,
+    var title,
+    var body,
+    var payload,
+  }) async {
+    var time = DateTime.now().add(Duration(seconds: 25));
+    return _notification.showDailyAtTime(
+        id, title, body, notificationTime, notificationDetails());
+  }
+
   static notificationDetails() {
     return NotificationDetails(
       android: AndroidNotificationDetails(
