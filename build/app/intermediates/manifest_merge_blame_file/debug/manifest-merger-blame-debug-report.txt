@@ -1,0 +1,361 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.toll_plaza"
+4    android:versionCode="3"
+5    android:versionName="2.3.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:8:5-66
+14-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:9:5-80
+15-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->[:file_picker] C:\Users\kkc\regnum_toll_update\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+16-->[:file_picker] C:\Users\kkc\regnum_toll_update\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+17
+18    <queries>
+18-->[:file_picker] C:\Users\kkc\regnum_toll_update\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-15:15
+19        <intent>
+19-->[:file_picker] C:\Users\kkc\regnum_toll_update\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:18
+20            <action android:name="android.intent.action.GET_CONTENT" />
+20-->[:file_picker] C:\Users\kkc\regnum_toll_update\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-72
+20-->[:file_picker] C:\Users\kkc\regnum_toll_update\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:21-69
+21
+22            <data android:mimeType="*/*" />
+22-->[:file_picker] C:\Users\kkc\regnum_toll_update\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+22-->[:file_picker] C:\Users\kkc\regnum_toll_update\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-41
+23        </intent>
+24    </queries>
+25
+26    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+26-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+26-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+27    <uses-permission android:name="android.permission.VIBRATE" />
+27-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-66
+27-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-63
+28    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+28-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
+28-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-78
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[:connectivity] C:\Users\kkc\regnum_toll_update\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+29-->[:connectivity] C:\Users\kkc\regnum_toll_update\build\connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+30    <uses-permission android:name="android.permission.WAKE_LOCK" />
+30-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\0140a55b47eadd1901ac5bda54ddfaee\play-services-measurement-api-19.0.2\AndroidManifest.xml:24:5-68
+30-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\0140a55b47eadd1901ac5bda54ddfaee\play-services-measurement-api-19.0.2\AndroidManifest.xml:24:22-65
+31    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+31-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\c049b89779367cc75b2ac6099bbe3ac4\play-services-measurement-19.0.2\AndroidManifest.xml:26:5-110
+31-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\c049b89779367cc75b2ac6099bbe3ac4\play-services-measurement-19.0.2\AndroidManifest.xml:26:22-107
+32
+33    <application
+33-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:10:5-48:19
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.3.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\17e6d0e18cfc5958b7c077ba96fcbc96\core-1.3.0\AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/launcher_icon"
+36-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:12:9-45
+37        android:label="Regnum Toll" >
+37-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:11:9-36
+38        <activity
+38-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:13:9-42:20
+39            android:name="com.example.toll_plaza.MainActivity"
+39-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:14:13-41
+40            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+40-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:17:13-163
+41            android:hardwareAccelerated="true"
+41-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:18:13-47
+42            android:launchMode="singleTop"
+42-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:15:13-43
+43            android:theme="@style/LaunchTheme"
+43-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:16:13-47
+44            android:windowSoftInputMode="adjustResize" >
+44-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:19:13-55
+45
+46            <!--
+47                 Specifies an Android theme to apply to this Activity as soon as
+48                 the Android process has started. This theme is visible to the user
+49                 while the Flutter UI initializes. After that, this theme continues
+50                 to determine the Window background behind the Flutter UI.
+51            -->
+52
+53            <meta-data
+53-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:25:13-28:17
+54                android:name="io.flutter.embedding.android.NormalTheme"
+54-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:26:15-70
+55                android:resource="@style/NormalTheme" />
+55-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:27:15-52
+56            <!--
+57                 Displays an Android View that continues showing the launch screen
+58                 Drawable until Flutter paints its first frame, then this splash
+59                 screen fades out. A splash screen is useful to avoid any visual
+60                 gap between the end of Android's launch screen and the painting of
+61                 Flutter's first frame.
+62            -->
+63            <meta-data
+63-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:34:13-37:17
+64                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+64-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:35:15-79
+65                android:resource="@drawable/launch_background" />
+65-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:36:15-61
+66
+67            <intent-filter>
+67-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:38:13-41:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:39:17-68
+68-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:39:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:40:17-76
+70-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:40:27-74
+71            </intent-filter>
+72        </activity>
+73        <!--
+74             Don't delete the meta-data below.
+75             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+76        -->
+77        <meta-data
+77-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:45:9-47:33
+78            android:name="flutterEmbedding"
+78-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:46:13-44
+79            android:value="2" />
+79-->C:\Users\kkc\regnum_toll_update\android\app\src\main\AndroidManifest.xml:47:13-30
+80
+81        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+81-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-106
+81-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:12:19-103
+82        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+82-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-20:20
+82-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-107
+83            <intent-filter>
+83-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-19:29
+84                <action android:name="android.intent.action.BOOT_COMPLETED" />
+84-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-79
+84-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:15:25-76
+85                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+85-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-84
+85-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:16:25-81
+86                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+86-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-82
+86-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:17:25-79
+87                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+87-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-82
+87-->[:flutter_local_notifications] C:\Users\kkc\regnum_toll_update\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:18:25-79
+88            </intent-filter>
+89        </receiver>
+90
+91        <service
+91-->[:cloud_firestore] C:\Users\kkc\regnum_toll_update\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+92            android:name="com.google.firebase.components.ComponentDiscoveryService"
+92-->[:cloud_firestore] C:\Users\kkc\regnum_toll_update\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+93            android:directBootAware="true"
+93-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\a9202979c7b6fe6e6f3d50f33959386c\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+94            android:exported="false" >
+94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+95            <meta-data
+95-->[:cloud_firestore] C:\Users\kkc\regnum_toll_update\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+96                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+96-->[:cloud_firestore] C:\Users\kkc\regnum_toll_update\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[:cloud_firestore] C:\Users\kkc\regnum_toll_update\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+98            <meta-data
+98-->[:firebase_database] C:\Users\kkc\regnum_toll_update\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+99                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+99-->[:firebase_database] C:\Users\kkc\regnum_toll_update\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-127
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[:firebase_database] C:\Users\kkc\regnum_toll_update\build\firebase_database\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+101            <meta-data
+101-->[:firebase_auth] C:\Users\kkc\regnum_toll_update\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+102                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+102-->[:firebase_auth] C:\Users\kkc\regnum_toll_update\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[:firebase_auth] C:\Users\kkc\regnum_toll_update\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+104            <meta-data
+104-->[:firebase_core] C:\Users\kkc\regnum_toll_update\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+105                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+105-->[:firebase_core] C:\Users\kkc\regnum_toll_update\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[:firebase_core] C:\Users\kkc\regnum_toll_update\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+108                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-firestore:23.0.4] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\466e05c45ddc9a879b25f65c2bfc1e56\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:20:13-22:85
+111                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+111-->[com.google.firebase:firebase-firestore:23.0.4] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\466e05c45ddc9a879b25f65c2bfc1e56\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:21:17-111
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-firestore:23.0.4] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\466e05c45ddc9a879b25f65c2bfc1e56\jetified-firebase-firestore-23.0.4\AndroidManifest.xml:22:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-database:20.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\f7884df08a73e1c5f8133fcaa338172d\firebase-database-20.0.2\AndroidManifest.xml:32:13-34:85
+114                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+114-->[com.google.firebase:firebase-database:20.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\f7884df08a73e1c5f8133fcaa338172d\firebase-database-20.0.2\AndroidManifest.xml:33:17-109
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-database:20.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\f7884df08a73e1c5f8133fcaa338172d\firebase-database-20.0.2\AndroidManifest.xml:34:17-82
+116            <meta-data
+116-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\0140a55b47eadd1901ac5bda54ddfaee\play-services-measurement-api-19.0.2\AndroidManifest.xml:30:13-32:85
+117                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+117-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\0140a55b47eadd1901ac5bda54ddfaee\play-services-measurement-api-19.0.2\AndroidManifest.xml:31:17-139
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\0140a55b47eadd1901ac5bda54ddfaee\play-services-measurement-api-19.0.2\AndroidManifest.xml:32:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\938a47687bd8d82039da565b64fd0388\firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+120                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+120-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\938a47687bd8d82039da565b64fd0388\firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\938a47687bd8d82039da565b64fd0388\firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+122        </service>
+123
+124        <activity
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+125            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+126            android:excludeFromRecents="true"
+126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+127            android:exported="true"
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+128            android:launchMode="singleTask"
+128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+130            <intent-filter>
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+131                <action android:name="android.intent.action.VIEW" />
+131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+132
+133                <category android:name="android.intent.category.DEFAULT" />
+133-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+133-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+134                <category android:name="android.intent.category.BROWSABLE" />
+134-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+134-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+135
+136                <data
+136-->[:file_picker] C:\Users\kkc\regnum_toll_update\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+137                    android:host="firebase.auth"
+138                    android:path="/"
+139                    android:scheme="genericidp" />
+140            </intent-filter>
+141        </activity>
+142        <activity
+142-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+143            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+144            android:excludeFromRecents="true"
+144-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+145            android:exported="true"
+145-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+146            android:launchMode="singleTask"
+146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+147            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+147-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+148            <intent-filter>
+148-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+149                <action android:name="android.intent.action.VIEW" />
+149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+150
+151                <category android:name="android.intent.category.DEFAULT" />
+151-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+151-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+152                <category android:name="android.intent.category.BROWSABLE" />
+152-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+152-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+153
+154                <data
+154-->[:file_picker] C:\Users\kkc\regnum_toll_update\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-44
+155                    android:host="firebase.auth"
+156                    android:path="/"
+157                    android:scheme="recaptcha" />
+158            </intent-filter>
+159        </activity>
+160
+161        <service
+161-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+162            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+162-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+163            android:enabled="true"
+163-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+164            android:exported="false" >
+164-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+165            <intent-filter>
+165-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+166                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+166-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+166-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+167
+168                <category android:name="android.intent.category.DEFAULT" />
+168-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+168-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\901047cc7de57f582a1dab2a1b2f6fc5\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+169            </intent-filter>
+170        </service>
+171
+172        <provider
+172-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\a9202979c7b6fe6e6f3d50f33959386c\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+173            android:name="com.google.firebase.provider.FirebaseInitProvider"
+173-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\a9202979c7b6fe6e6f3d50f33959386c\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+174            android:authorities="com.example.toll_plaza.firebaseinitprovider"
+174-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\a9202979c7b6fe6e6f3d50f33959386c\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+175            android:directBootAware="true"
+175-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\a9202979c7b6fe6e6f3d50f33959386c\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+176            android:exported="false"
+176-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\a9202979c7b6fe6e6f3d50f33959386c\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+177            android:initOrder="100" />
+177-->[com.google.firebase:firebase-common:20.0.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\a9202979c7b6fe6e6f3d50f33959386c\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+178
+179        <activity
+179-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\1b982e7440fe845058516d0bd5b660a1\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+180            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+180-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\1b982e7440fe845058516d0bd5b660a1\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+181            android:exported="false"
+181-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\1b982e7440fe845058516d0bd5b660a1\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+182            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+182-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\1b982e7440fe845058516d0bd5b660a1\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+183
+184        <receiver
+184-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\c049b89779367cc75b2ac6099bbe3ac4\play-services-measurement-19.0.2\AndroidManifest.xml:29:9-33:20
+185            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+185-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\c049b89779367cc75b2ac6099bbe3ac4\play-services-measurement-19.0.2\AndroidManifest.xml:30:13-85
+186            android:enabled="true"
+186-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\c049b89779367cc75b2ac6099bbe3ac4\play-services-measurement-19.0.2\AndroidManifest.xml:31:13-35
+187            android:exported="false" >
+187-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\c049b89779367cc75b2ac6099bbe3ac4\play-services-measurement-19.0.2\AndroidManifest.xml:32:13-37
+188        </receiver>
+189
+190        <service
+190-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\c049b89779367cc75b2ac6099bbe3ac4\play-services-measurement-19.0.2\AndroidManifest.xml:35:9-38:40
+191            android:name="com.google.android.gms.measurement.AppMeasurementService"
+191-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\c049b89779367cc75b2ac6099bbe3ac4\play-services-measurement-19.0.2\AndroidManifest.xml:36:13-84
+192            android:enabled="true"
+192-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\c049b89779367cc75b2ac6099bbe3ac4\play-services-measurement-19.0.2\AndroidManifest.xml:37:13-35
+193            android:exported="false" />
+193-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\c049b89779367cc75b2ac6099bbe3ac4\play-services-measurement-19.0.2\AndroidManifest.xml:38:13-37
+194        <service
+194-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\c049b89779367cc75b2ac6099bbe3ac4\play-services-measurement-19.0.2\AndroidManifest.xml:39:9-43:72
+195            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+195-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\c049b89779367cc75b2ac6099bbe3ac4\play-services-measurement-19.0.2\AndroidManifest.xml:40:13-87
+196            android:enabled="true"
+196-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\c049b89779367cc75b2ac6099bbe3ac4\play-services-measurement-19.0.2\AndroidManifest.xml:41:13-35
+197            android:exported="false"
+197-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\c049b89779367cc75b2ac6099bbe3ac4\play-services-measurement-19.0.2\AndroidManifest.xml:42:13-37
+198            android:permission="android.permission.BIND_JOB_SERVICE" />
+198-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\c049b89779367cc75b2ac6099bbe3ac4\play-services-measurement-19.0.2\AndroidManifest.xml:43:13-69
+199
+200        <meta-data
+200-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\13bb44701b9d202990a775fbe55b37b5\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+201            android:name="com.google.android.gms.version"
+201-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\13bb44701b9d202990a775fbe55b37b5\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+202            android:value="@integer/google_play_services_version" />
+202-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\kkc\.gradle\caches\transforms-2\files-2.1\13bb44701b9d202990a775fbe55b37b5\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+203    </application>
+204
+205</manifest>
